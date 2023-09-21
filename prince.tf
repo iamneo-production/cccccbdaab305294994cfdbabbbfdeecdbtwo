@@ -1,5 +1,5 @@
 terraform {
-   required_provider{
+   required_provider {
       aws = {
           source="hashicorp/aws"
       }
@@ -9,8 +9,8 @@ terraform {
 
 provider "aws"{
     region = "ap-southeast-1"
-    access_key ="AKIAX3IN6TIL43S3TABJ"
-    secret_key="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"
+    access_key ="AKIAX3IN6TILY6CK47LJ"
+    secret_key="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"
 }
 
 resource "aws_instance" "ec2_instance"{
